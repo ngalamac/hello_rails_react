@@ -37,7 +37,6 @@ jobs:
   nodechecker:
     name: node_modules checker
     runs-on: ubuntu-22.04
-    
     steps:
       - uses: actions/checkout@v3
       - name: Check node_modules existence
