@@ -6,6 +6,7 @@ import { fetchRandomGreeting } from '../store/greetingsSlice';
 const UpdatedGreetingComponent = () => {
   const dispatch = useDispatch();
   const greeting = useSelector((state) => state.greetings.greeting);
+  console.log(greeting);
   const loadingStatus = useSelector((state) => state.greetings.loading);
 
   useEffect(() => {
@@ -15,7 +16,7 @@ const UpdatedGreetingComponent = () => {
 
   return (
     <div>
-      <h1>Updated Random Greeting:</h1>
+      <h1>Greeting messages:</h1>
       {loadingStatus === 'loading' ? (
         <p>Loading...</p>
       ) : loadingStatus === 'failed' ? (

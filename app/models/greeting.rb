@@ -1,5 +1,3 @@
 class Greeting < ApplicationRecord
-    
-    attribute :message, :string
-  end
-  
+  attribute :message, :string
+end
