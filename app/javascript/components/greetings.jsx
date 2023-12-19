@@ -15,7 +15,7 @@ const UpdatedGreetingComponent = () => {
 
   return (
     <div>
-      <h1>Updated Random Greeting:</h1>
+      <h1>Greeting messages:</h1>
       {loadingStatus === 'loading' ? (
         <p>Loading...</p>
       ) : loadingStatus === 'failed' ? (

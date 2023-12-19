@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from 'react-redux';
 import store from './store/store';
-import UpdatedGreetingComponent from './components/UpdatedGreetingComponent'; // Update component name
+import UpdatedGreetingComponent from './components/greetings.jsx'; // Update import
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
