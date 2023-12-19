@@ -43,7 +43,6 @@ Ruby on Rails, Visual Studia Code, WSL,CSS, HTML, PostgreSQL, Rspec, Rubocop, Gi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
 There is no live demo for this project yet.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
